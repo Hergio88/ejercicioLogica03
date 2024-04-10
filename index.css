@@ -1,52 +1,26 @@
 body {
-    background-image: url('practica.jpg');
+    background-image: url('https://mdbootstrap.com/img/new/fluid/city/005.jpg');
     background-size: cover; 
     background-repeat: no-repeat; 
     height: 100vh; 
     padding: 0; /* Elimina el relleno para evitar espacios innecesarios */
     margin: 0; /* Elimina los márgenes para un aspecto más limpio */
-    animation: moverFondo 10s linear infinite, ondas 3s ease-in-out infinite alternate;
 }
 
-
-@keyframes moverFondo {
-    
-    10% {
-        background-position: 0 0; /* Posición inicial */
-    }
-    100% {
-        background-position: 100% 0; /* Posición final */
-    }
-}
-
-@keyframes ondas {
-    0% {
-        transform: scale(1);
-    }
-    50% {
-        transform: scale(1.1);
-    }
-    100% {
-        transform: scale(1);
-    }
-}
   span {
     font-size: 16px; 
     font-weight: bold; 
-    color: #ffffff; 
+    color: hsl(210, 50%, 99%); 
 }
 
 nav {
     width: 100%; /* Asegura que ocupe todo el ancho disponible */
     text-align: center; /* Centra los elementos hijos horizontalmente */
     border-radius: 4%;
+    color: hsl(210, 50%, 99%); 
+    font-size: 24
+px;
 }
-nav {
-    width: 100%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
+
 
 

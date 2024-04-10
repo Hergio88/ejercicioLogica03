@@ -1,0 +1,12 @@
+body {
+    background-image: url('https://mdbootstrap.com/img/Photos/Others/images/78.jpg');
+    height: 50vh;  
+}
+    h1, p {
+        background-color: #bddde9; 
+        padding: 10px; 
+        color: #000; /* Color del texto (opcional) */
+        border-radius: 10px;
+        border: 2px rgb(46, 12, 159) solid;
+    }
+
